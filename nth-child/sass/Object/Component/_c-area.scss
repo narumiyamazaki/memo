@@ -16,3 +16,15 @@
 .c-area--3n:nth-child(3n) {
     background-color:aquamarine;
 }
+.c-area--nPlus3:nth-child(n+3) {
+    background-color:aquamarine;
+}
+.c-area--3nPlus1:nth-child(3n+1) {
+    background-color: aquamarine;
+  }
+.c-area--Minus_nPlus3:nth-child(-n+3) {
+    background-color: aquamarine;
+}
+.c-area--nPlus3-Minus_nPlus6:nth-child(n+3):nth-child(-n+6) {
+    background-color: aquamarine;
+}
