@@ -1,0 +1,12 @@
+/*headerのHamburgerとMenu部分 */
+@mixin header--title--menu($value) {
+    font-family: 'Roboto', sans-serif;
+    color:#707070;
+    font-size:$value;
+    font-weight: bold;
+}
+@mixin media($breakpoint){
+    @media #{map-get($breakpoints, $breakpoint)}{
+        @content;
+    }
+}
