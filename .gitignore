@@ -1,0 +1,3 @@
+#.jsonファイルをすべて無視
+*.json
+/node_modules/
