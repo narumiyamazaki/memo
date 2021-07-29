@@ -1,3 +1,7 @@
 #.jsonファイルをすべて無視
+<<<<<<< HEAD
 *.json
 /node_modules/
+=======
+*.json
+>>>>>>> origin/master
